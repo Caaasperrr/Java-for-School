@@ -102,3 +102,13 @@ System.out.println("Die Hypotenuse ist: " + c)
 ----es ist gut den scanner zu schließen 
 
 scanner.close();
+
+---- zusatz------
+
+--gui--
+
+wir arbeiten mit dem JOPtionPane das ist einfach eine Methode von Java
+
+String name = JOPtionPane.showInputDialog("Dein Name:");
+JOptionPane.showMessageDialog(null, "Dein Name ist: " + name);
+
