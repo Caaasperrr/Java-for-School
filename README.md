@@ -107,7 +107,7 @@ scanner.close();
 
 --gui--
 
-wir arbeiten mit dem JOPtionPane das ist einfach eine Methode von Java
+wir arbeiten mit dem JOPtionPane das ist eine Methode von Java
 
 String name = JOPtionPane.showInputDialog("Dein Name:");
 JOptionPane.showMessageDialog(null, "Dein Name ist: " + name);
