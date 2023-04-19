@@ -111,4 +111,9 @@ wir arbeiten mit dem JOPtionPane das ist einfach eine Methode von Java
 
 String name = JOPtionPane.showInputDialog("Dein Name:");
 JOptionPane.showMessageDialog(null, "Dein Name ist: " + name);
+int age = Integer.parseInt(JOptionPane.showInputDialog("Dein Alter:"));
+JOptionPane.showMEssageDialog(null, "Du bist " + age + " Jahre alt.");
 
+--Abschluss----
+
+Das wars mit meiner vorstelleung von Java
