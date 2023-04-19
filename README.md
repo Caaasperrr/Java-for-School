@@ -39,3 +39,66 @@ long 8 Bit von Daten -9 billionen bis 9 billionen
 float 4 Bit von Daten Komma zahlen bis zu 7 stellen
 double 8 Bit von Daten komma zahlen bis zu 15 stellen
 String unterschiedlich Wörter in anführungszeichen "Hallo"
+
+variablen erstellen:
+
+1. methode int x;
+   x = 123;
+2. int x = 123; (wird am häufigsten genutzt)
+
+kann man mit allen datentypen machen
+
+-----logische operatoren-----
+
+&& = (UND) beide Konditionen muss true sein
+|| = (ODER) einer der beiden Konditionnen muss true sein
+! = (NICHT) das kehr es einfahc um zb !true = false, !false = true
+
+-----if statement-----
+
+if(wenn) wenn etwas das ist dann pasiert das
+
+int temp = 22;
+
+        //if statement
+
+        if (temp > 30) {
+            System.out.println("Es ist heiß draußen");
+        } else if (temp >= 20 && temp <= 30) {
+            System.out.println("Es ist warm draußen");
+        }else {
+            System.out.println("Es ist kalt draußen");
+        }
+
+-------Mathe hupotenuse---------
+
+seiten der hypotenuse:
+
+double a;
+double b;
+double c;
+
+scanner um user input zu akzeptieren
+
+Scanner scanner = new Scanner(System.in(weil wir einen Input brauchen));
+
+System.out.println("Seite x: ");
+scanner wieder wegen user input
+der scanner macht es damit wir etwas in der console eingeben können und er es dann als variable x speichert
+x = scanner.nextDouble(); ()double weil wir kommazhalen auch akzeptieren wollen
+System.out.println("Seite y: ")
+y = scanner.nextDouble();
+
+Jetzt kommt der schwierige Teil
+
+Formel um die Hypotenuse auszurechnen
+
+c = √a² + b²
+
+c = Math.sqrt((a*a)+(b*b)) (Wurzel = Squareroute)
+
+System.out.println("Die Hypotenuse ist: " + c)
+
+----es ist gut den scanner zu schließen 
+
+scanner.close();
